@@ -1,7 +1,7 @@
 #Blueprint
 class Car(object):
     #properties
-    def _init_(self,brand,color,price,year,condition):
+    def __init__(self,brand,color,price,year,condition):
         self.brand=brand
         self.color=color
         self.price=price
